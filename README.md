@@ -1,4 +1,4 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# 05 : Day-Planner
 
 ## Task
 
@@ -22,7 +22,7 @@ GIVEN I am using a daily planner to create a schedule
 ✓ WHEN I refresh the page THEN the saved events persist
 ```
 --------------------------------
-# DNB's SOLUTION: 
+# SOLUTION: 
 UNC Boot Camp Submission: 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/05-Hourly_Workday_Scheduler-using_jQuery) | 📄[Github Page](https://dionnenoellabarretto.github.io/05-Hourly_Workday_Scheduler-using_jQuery/)
 
 --------------------------------
@@ -39,51 +39,3 @@ Cumulative Entry Save Function: <img src= "./Assets/images/AddButton.png">
 Local Data Persistence between Page Refreshes if Delete is not triggered - to get to this page you still need to enter a start hour be it the same or new hour: <img src= "./Assets/images/DataPersistenceUponPageRefresh.png">
 Local Browser Storage logic for the 2 save implementations: <img src= "./Assets/images/LocalStorage(IndividualSavevsAddAll).png">
 Clear All Text Entries for the existing Schedule: <img src= "./Assets/images/DeleteEntriesforExistingSchedule(ClearAllText).png">
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-```
-✅ Satisfies all of the preceding acceptance criteria
-✅ Uses a date utility library to work with date and time
-```
-
-### Deployment: 32%
-
-```
-✅ Application deployed at live URL.
-
-✅ Application GitHub URL submitted.
-
-✅ GitHub repository contains application code.
-
-✅ Application loads with no errors.
-```
-<img src= "./Assets/images/NoErrorsOnPageLoad.png">
-
-### Application Quality: 15%
-```
-✅ Application user experience is intuitive and easy to navigate.
-
-✅ Application user interface style is clean and polished.
-
-✅ Application resembles the mock-up functionality provided in the homework instructions.
-```
-
-### Repository Quality: 13%
-
-```
-✅ Repository has a unique name.
-
-✅ Repository follows best practices for file structure and naming conventions.
-
-✅ Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-✅ Repository contains multiple descriptive commit messages.
-
-✅ Repository contains quality readme file with description, screenshot, and link to deployed application.
-```
